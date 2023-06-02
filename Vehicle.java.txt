@@ -2,3 +2,9 @@ interface Vehicle
 {
 void start()
 }
+class Car implements Vehicle
+{
+void start(){
+System.out.println("Implementation done")
+}
+}
